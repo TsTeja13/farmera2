@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmera2 - AI Plant Disease Detection</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>🌾 Farmera2</h2>
+
+        <div>
+            <a href="index.html">Disease Detection</a>
+            <a href="chat.html">AI Assistant</a>
+            <a href="schemes.html">Schemes</a>
+            <a href="store.html">Seeds & Tutorials</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+
+        <h1>AI Plant Disease Detection</h1>
+
+        <p>
+            Upload a plant image and get disease analysis,
+            treatment suggestions, and natural farming guidance.
+        </p>
+
+        <input
+            type="file"
+            id="imageInput"
+            accept="image/*">
+
+        <br><br>
+
+        <button onclick="uploadImage()">
+            Detect Disease
+        </button>
+
+        <div id="result"></div>
+
+    </section>
+
+    <section>
+
+        <h2>🌱 Natural Farming Tips</h2>
+
+        <ul class="tips">
+            <li>Use compost instead of chemical fertilizers.</li>
+            <li>Apply neem oil for pest control.</li>
+            <li>Practice crop rotation.</li>
+            <li>Use vermicompost for healthy soil.</li>
+            <li>Mulching helps retain moisture.</li>
+        </ul>
+
+    </section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
