@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4fff4;
+}
+
+nav{
+    background:green;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:40px;
+}
+
+.hero h1{
+    color:green;
+    margin-bottom:15px;
+}
+
+.hero p{
+    margin-bottom:20px;
+}
+
+input[type="file"]{
+    margin-top:20px;
+}
+
+button{
+    background:green;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:darkgreen;
+}
+
+#result{
+    margin-top:20px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:80%;
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.tips{
+    width:80%;
+    max-width:700px;
+    margin:auto;
+    margin-top:20px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.tips li{
+    margin-bottom:10px;
+}
